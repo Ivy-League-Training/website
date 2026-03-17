@@ -1,0 +1,44 @@
+# robots.txt — getivyleague.com
+
+Sitemap: https://getivyleague.com/sitemap.xml
+
+# Allow all legitimate search engines
+User-agent: Googlebot
+Allow: /
+Disallow: /contact.html
+
+User-agent: Bingbot
+Allow: /
+Disallow: /contact.html
+
+# Block known spam harvesters and scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+# Block all others from the contact page
+User-agent: *
+Disallow: /contact.html
